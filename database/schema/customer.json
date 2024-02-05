@@ -1,0 +1,21 @@
+{
+  "mappings": {
+    "properties": {
+      "customer_id": {
+        "type": "keyword"
+      },
+      "name": {
+        "type": "text"
+      },
+      "email": {
+        "type": "text"
+      },
+      "address": {
+        "type": "text"
+      },
+      "phone_number": {
+        "type": "text"
+      },
+    }
+  }
+}

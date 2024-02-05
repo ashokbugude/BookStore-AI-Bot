@@ -1,0 +1,35 @@
+[
+    {
+      "_index": "customer",
+      "_id": "1",
+      "_source": {
+        "customer_id": "CUST001",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "address": "123 Main St, Cityville",
+        "phone_number": "+1234567890",
+      }
+    },
+    {
+      "_index": "customer",
+      "_id": "2",
+      "_source": {
+        "customer_id": "CUST002",
+        "name": "Alice Smith",
+        "email": "alice.smith@example.com",
+        "address": "456 Oak St, Townsville",
+        "phone_number": "+9876543210",
+      }
+    },
+    {
+      "_index": "customer",
+      "_id": "3",
+      "_source": {
+        "customer_id": "CUST003",
+        "name": "Bob Johnson",
+        "email": "bob.johnson@example.com",
+        "address": "789 Pine St, Villagetown",
+        "phone_number": "+1122334455",
+      }
+    }
+  ]

@@ -1,0 +1,146 @@
+[
+    {
+        "_index": "bookstore",
+        "_id": "1",
+        "_source": {
+            "title": "The Catcher in the Rye",
+            "author": "J.D. Salinger",
+            "genre": "Coming-of-Age",
+            "description": "A novel following the experiences of a disenchanted teenager in New York City.",
+            "price": 17.99,
+            "stock_quantity": 22
+        }
+    },
+    {
+        "_index": "bookstore",
+        "_id": "2",
+        "_source": {
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "genre": "Classic",
+            "description": "A tale of the American Dream and the Roaring Twenties.",
+            "price": 16.99,
+            "stock_quantity": 15
+        }
+    },
+    {
+        "_index": "bookstore",
+        "_id": "3",
+        "_source": {
+            "title": "Sapiens: A Brief History of Humankind",
+            "author": "Yuval Noah Harari",
+            "genre": "History",
+            "description": "An exploration of the history and impact of Homo sapiens.",
+            "price": 24.99,
+            "stock_quantity": 40
+        }
+    },
+    {
+        "_index": "bookstore",
+        "_id": "4",
+        "_source": {
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "genre": "Fiction",
+            "description": "Classic novel exploring racial injustice in the American South.",
+            "price": 14.99,
+            "stock_quantity": 25
+        }
+    },
+    {
+        "_index": "bookstore",
+        "_id": "5",
+        "_source": {
+            "title": "1984",
+            "author": "George Orwell",
+            "genre": "Dystopian",
+            "description": "A dystopian novel depicting a totalitarian regime and its impact on society.",
+            "price": 19.99,
+            "stock_quantity": 20
+        }
+    },
+    {
+        "_index": "bookstore",
+        "_id": "6",
+        "_source": {
+            "title": "The Elements of Statistical Learning",
+            "author": "Hastie, Tibshirani, Friedman",
+            "genre": "Technology",
+            "description": "Comprehensive introduction to pattern recognition and machine learning.",
+            "price": 39.99,
+            "stock_quantity": 30
+        }
+    },
+    {
+        "_index": "bookstore",
+        "_id": "7",
+        "_source": {
+            "title": "Machine Learning Yearning",
+            "author": "Andrew Ng",
+            "genre": "Technology",
+            "description": "Insightful guidance on how to structure machine learning projects.",
+            "price": 29.99,
+            "stock_quantity": 50
+        }
+    },
+    {
+        "_index": "bookstore",
+        "_id": "8",
+        "_source": {
+            "title": "The Da Vinci Code",
+            "author": "Dan Brown",
+            "genre": "Mystery",
+            "description": "A mystery thriller involving secret societies and hidden codes.",
+            "price": 27.99,
+            "stock_quantity": 35
+        }
+    },
+    {
+        "_index": "bookstore",
+        "_id": "9",
+        "_source": {
+            "title": "The Hitchhiker's Guide to the Galaxy",
+            "author": "Douglas Adams",
+            "genre": "Science Fiction",
+            "description": "A comedic science fiction series exploring the galaxy and beyond.",
+            "price": 21.99,
+            "stock_quantity": 18
+        }
+    },
+    {
+        "_index": "bookstore",
+        "_id": "10",
+        "_source": {
+            "title": "Harry Potter and the Sorcerer's Stone",
+            "author": "J.K. Rowling",
+            "genre": "Fantasy",
+            "description": "The first book in the Harry Potter series, introducing the magical world.",
+            "price": 18.99,
+            "stock_quantity": 28
+        }
+    },
+    {
+        "_index": "bookstore",
+        "_id": "11",
+        "_source": {
+            "title": "Deep Learning Specialization",
+            "author": "Andrew Ng",
+            "genre": "Deep Learning",
+            "description": "A comprehensive guide to deep learning concepts and applications.",
+            "price": 39.99,
+            "stock_quantity": 30
+        }
+    },
+    {
+        "_index": "bookstore",
+        "_id": "12",
+        "_source": {
+            "title": "AI for Everyone",
+            "author": "Andrew Ng",
+            "genre": "Artificial Intelligence",
+            "description": "An accessible introduction to the principles and applications of AI.",
+            "price": 24.99,
+            "stock_quantity": 40
+        }
+    }
+]

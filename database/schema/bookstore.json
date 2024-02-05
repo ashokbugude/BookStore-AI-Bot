@@ -1,0 +1,24 @@
+{
+  "mappings": {
+    "properties": {
+      "title": {
+        "type": "text"
+      },
+      "author": {
+        "type": "text"
+      },
+      "genre": {
+        "type": "keyword"
+      },
+      "description": {
+        "type": "text"
+      },
+      "price": {
+        "type": "float"
+      },
+      "stock_quantity": {
+        "type": "integer"
+      }
+    }
+  }
+}
