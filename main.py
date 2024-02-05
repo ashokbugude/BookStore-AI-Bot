@@ -29,10 +29,6 @@ OPENAI_API_KEY=os.environ.get('OPENAI_API_KEY')
 ELASTIC_SEARCH_URL=os.environ.get('ELASTIC_SEARCH_URL')
 ELASTIC_SEARCH_API_KEY=os.environ.get('ELASTIC_SEARCH_API_KEY')
 
-print(OPENAI_API_KEY)
-print(ELASTIC_SEARCH_URL)
-print(ELASTIC_SEARCH_API_KEY)
-
 OpenAIClient = OpenAI(api_key=OPENAI_API_KEY)
 
 client = Elasticsearch(
@@ -187,6 +183,7 @@ def get_response(user_input):
             message = 'Get title and author from below sentence and convert to json response.\n' + title_author_message
             title_author_text = get_chat_gpt_response(message)
             title_author = json.loads(title_author_text)
+            print(title_author)
             title = title_author['title']
             author = title_author['author']
             book_query = {
@@ -282,6 +279,7 @@ def get_response(user_input):
             message += "Return order with id 'ORD005'"
     else:
         message = get_chat_gpt_response(user_input)
+        message += "\n\n Is there anything else I can help you with?"
     return message    
 
 def gradio_interface(user_input):
